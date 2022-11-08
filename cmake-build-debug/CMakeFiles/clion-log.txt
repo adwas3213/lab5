@@ -1,0 +1,4 @@
+"D:\CLion\CLion 2020.2.4\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - MinGW Makefiles" C:\Users\Adam\Desktop\lab_5_do_wsl
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/Users/Adam/Desktop/lab_5_do_wsl/cmake-build-debug

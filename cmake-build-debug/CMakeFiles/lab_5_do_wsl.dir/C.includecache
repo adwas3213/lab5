@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Adam/Desktop/lab_5_do_wsl/zad_2/dekompozycja_petli.c
+stdio.h
+-
+pthread.h
+-
+math.h
+-
+
+C:/Users/Adam/Desktop/lab_5_do_wsl/zad_2/obliczanie_calki.c
+stdio.h
+-
+math.h
+-
+pomiar_czasu.h
+C:/Users/Adam/Desktop/lab_5_do_wsl/zad_2/pomiar_czasu.h
+
+C:/Users/Adam/Desktop/lab_5_do_wsl/zad_2/pomiar_czasu.h
+

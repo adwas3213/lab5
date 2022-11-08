@@ -1,0 +1,3 @@
+"D:\CLion\CLion 2020.2.4\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\lab_5_do_wsl.dir/objects.a
+C:\mingw64\bin\ar.exe cr CMakeFiles\lab_5_do_wsl.dir/objects.a @CMakeFiles\lab_5_do_wsl.dir\objects1.rsp
+C:\mingw64\bin\gcc.exe -g -Wl,--whole-archive CMakeFiles\lab_5_do_wsl.dir/objects.a -Wl,--no-whole-archive -o lab_5_do_wsl.exe -Wl,--out-implib,liblab_5_do_wsl.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\lab_5_do_wsl.dir\linklibs.rsp
