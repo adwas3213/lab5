@@ -79,10 +79,11 @@ void* calka_fragment_petli_w(void* arg_wsk){
     dx = dx_global;
     N = N_global;
   // dekompozycja blokowa
-    int my_start = ceil((float)N/l_w_global) * my_id;
-    int my_end = ceil((float)N/l_w_global) * (my_id + 1);
-    int my_stride = 1;
-
+//    int my_start = ceil((float)N/l_w_global) * my_id;
+//    int my_end = ceil((float)N/l_w_global) * (my_id + 1);
+    int my_stride = l_w_global;
+    int my_start = 0;
+    int my_end = N;
   // something else ? (dekompozycja blokowo-cykliczna)
 
 
@@ -96,7 +97,7 @@ void* calka_fragment_petli_w(void* arg_wsk){
         int i;
   double calka = 0.0;
   dx=dx_global;
-    for(i=my_start; i<my_end; i+=my_stride){
+    for(i=my_id; i<my_end; i+=my_stride){
 
         double x1 = a + i*dx;
         calka += 0.5*dx*(funkcja(x1)+funkcja(x1+dx));
